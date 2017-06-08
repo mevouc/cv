@@ -1,0 +1,118 @@
+\documentclass[11pt,a4paper]{lib/moderncv/moderncv}
+
+\usepackage{lib/moderntimeline/moderntimeline}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+%\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\renewcommand{\FrenchLabelItem}{\textcolor{blue}{$\circ$}}
+
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{color}
+
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+\tlmaxdates{2014}{2017}
+\tlwidth{0.8ex}
+\tltext{\small}
+% adjust the page margins
+\usepackage[scale=0.90]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
+\geometry{bottom=2cm}
+
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy\makeatletter
+
+% personal data
+\firstname{Meven}
+\familyname{\bsc{Courouble}}
+\title{IT Engineering Student at EPITA in 3\up{rd} year\newline
+\textit{\Large Looking for a 4 months internship starting on September 2017, in
+Paris}
+}
+\address{94800 VILLEJUIF}
+\mobile{06.79.74.96.02}
+%\phone{0X-XX-XX-XX-XX}
+\email{meven.courouble@vouc.me}
+\homepage{vouc.me}
+%\extrainfo{20 years old}
+\social[linkedin]{mevouc}
+\social[github]{mevouc}
+\photo{courou_m-small.png}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX,Scale=1]{Corbel}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Cursus}
+
+\subsection{Education}
+
+\cventry{2014-2019}{Computer Engineering}{EPITA}{Paris}{French engineering
+school}{}
+
+\cventry{2016}{Computer Engineering}{Stellenbosch University}{South
+Africa}{classes in english}{}
+
+\cventry{2014}{High school}{Lycée
+Viollet-Le-Duc}{Villiers-St-Frédéric}{Scientific baccalaureat diploma, with
+distinction}{}
+
+
+\section{Experience}
+
+\subsection{Jobs}
+
+\cventry{2016-2017}{C\# and OCaml Teaching Assistant for first
+year students}{EPITA}{}{}{}
+
+\subsection{Internships}
+
+\cventry{2016}{Tool for extracting features of text in
+natural pictures, in Java/Swing}{EPITA Research \& Development Laboratory
+(LRDE)}{2 months}{}{}
+
+\subsection{School projects}
+
+\cvlanguage{2017}{\textbf{Tiger Compiler}, Full implementation of a compiler for
+Andrew Appel's language}{\large \itshape C++}
+\cvlanguage{2016}{\textbf{LibBistro}, Generic library for arithmetic operations on numbers of
+arbitrary size and base}{\large \itshape C++}
+\cvlanguage{2016}{\textbf{42sh}, A POSIX compliant shell, I was in charge of the parser (team of 3)}{\large \itshape C}
+\cvlanguage{2016}{\textbf{MyFind}, Full reimplementation of the Linux binary \emph{find}, Head
+of the class}{\large \itshape C}
+\cvlanguage{2015}{\textbf{1984},F acial recognition program (team of 4)}{\large \itshape C}
+\cvlanguage{2015}{\textbf{Inside the Game}, Running and platform video game in 3D (team of
+4)}{\large \itshape C\#, Unity3D}
+
+\subsection{Spare-time projects}
+
+\cvlanguage{2016}{\textbf{Quads}, Image compressing and computer art tool based on
+quadtrees}{\large \itshape C\#}
+\cvlanguage{2016}{\textbf{epifortune}, Fortune-like program printing quotes from Epiquote.fr}
+{\large \itshape C}
+
+\subsection{Student societies}
+
+\cventry{2014-2017}{Vice-treasurer, President}{GConfs}{Organizing and giving out tech
+talks for students}{}{}{}
+
+
+\section{Skills}
+
+\cvitem{Languages}{C\#, Java, C++, C, OCaml, Python}
+\cvitem{Others}{Linux, Git, Make, Graphic design (Adobe Photoshop \&
+Illustrator), LaTeX}{}{}
+
+\section{Miscellaneous}
+
+\cvitem{Languages}{French: Native, English: Fluent (\textbf{TOEIC 950}),
+Spanish: Rudiments}
+\cvitem{Hobbies}{Rock climbing, skiing, comic books, fantastic novels}
+\cvitem{Others}{Driving license}
+
+\end{document}
