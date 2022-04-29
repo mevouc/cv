@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{lib/moderncv/moderncv}
+\documentclass[10pt,a4paper]{lib/moderncv/moderncv}
 
 \usepackage{lib/moderntimeline/moderntimeline}
 \usepackage{lmodern}
@@ -19,20 +19,18 @@
 % adjust the page margins
 \usepackage[scale=0.92]{geometry}
 \setlength{\hintscolumnwidth}{2.5cm}           % if you want to change the width of the column with the dates
-\geometry{top=0.7cm, bottom=2.3cm}
+\geometry{top=0.5cm, bottom=2.2cm}
 
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
 \pagestyle{fancy} % options: empty , plain , fancy\makeatletter
 
 % personal data
 \firstname{Meven}
-\familyname{\bsc{Courouble}}
-\title{IT Engineering Student at EPITA in 5\up{th} year\newline
-\textit{\Large Looking for a 6 months end-of-studies internship in software
-engineering, in Ferbuary 2019}
-}
-\address{94800 Villejuif}
-\extrainfo{21 years old ~ {\footnotesize $\bullet$} ~ Driving license ~ {\footnotesize $\bullet$} ~ PSC1 French civil protection certificate}
+\familyname{\textsc{Courouble}}
+\title{Software Engineer\newline
+\textnormal{\Large Looking for \textbf{Backend, Fullstack or Software Engineer} position with emphasis on performance, quality algorithms and with a good company ethos}}
+\address{94350 Villiers-sur-Marne}
+\extrainfo{25 y/o ~ {\footnotesize $\bullet$} ~ Driving license ~ {\footnotesize $\bullet$} ~ PSC1 French civil protection certificate}
 \mobile{06.79.74.96.02}
 %\phone{0X-XX-XX-XX-XX}
 \email{meven.courouble@vouc.me}
@@ -42,7 +40,7 @@ engineering, in Ferbuary 2019}
 \photo{courou_m.jpg}
 
 \usepackage{fontspec}
-\setmainfont[Ligatures=TeX,Scale=1]{Corbel}
+\setmainfont[Ligatures=TeX,Scale=1]{Open Sans}
 
 \renewcommand{\labelitemi}{\scriptsize\color{blue}{$\circ$}}
 
@@ -50,76 +48,80 @@ engineering, in Ferbuary 2019}
 
 \makecvtitle
 
-\section{Cursus}
-
-\subsection{Education}
-
-\cventry{2014 - 2019}{Computer Engineering}{EPITA}{Paris}{French engineering
-school}{}
-
-\cventry{2016}{Computer Engineering}{Stellenbosch University}{South
-Africa}{classes in english}{}
-
-\cventry{2014}{High school}{Lycée
-Viollet-Le-Duc}{Villiers-St-Frédéric}{Scientific baccalaureat diploma, with
-distinction}{}
-
-
 \section{Experience}
 
 \subsection{Jobs}
 
+\cvlanguage{2021 - present}{\textbf{Software Engineer}, \textit{E-on Software}, Paris,
+Maintaining software for creating CG environments.}{\large
+\itshape C++}
+
+\cventry{2019 - 2021}{Associate Software Engineer}{Bentley Systems}{Paris}{2 years on-boarding program, working with 4 different teams}{}
+\cvlistitem{\textbf{~E-on Software}, Maintaining software for creating CG environments. \hfill{\large \itshape C++}}
+\cvlistitem{\textbf{~AutoPipe Vessel}, Creating tool to manage industry materials for pipes conception. \hfill{\large \itshape C\#}}
+\cvlistitem{\textbf{~Reality Modeling}, Desktop and Cloud tool UI/UX improvements. \hfill{\large \itshape C++, React, TS}}
+\cvlistitem{\textbf{~GeoModeler}, Developement of Electron app for geologists. \hfill{\large \itshape React, TS}}
+
 \cvlanguage{2016 - 2019}{\textbf{Teaching Assistant}, \textit{EPITA}, Paris,
-Tutoring 500 bachelor students (team of 39)}{\large
+Tutoring 500 bachelor students (team of 39).}{\large
 \itshape C\#, C++, Java, C}
 
 \subsection{Internships}
 
 \cvlanguage{2017 - 2018}{\textbf{Game Engine \& UI Enginneer Assistant},
-\textit{Spiders Games}, Paris, 4 months}{\large \itshape C++}
+\textit{Spiders Games}, Paris, 4 months.}{\large \itshape C++}
 
 \cvlanguage{2016}{\textbf{Text features extraction in
-natural pictures}, \textit{EPITA Research Laboratory}, Paris, 2 months}{\large \itshape Java/Swing}
+natural pictures}, \textit{EPITA Research Laboratory}, Paris, 2 months.}{\large \itshape Java}
 
-\subsection{Student societies}
+\subsection{Student associations}
 
 \cventry{2014 - 2017}{President}{GConfs}{Organizing and giving out tech
-talks for students}{}{}{}
-\cvlistitem{\textbf{~EuroBSDcon}, Video staff during 2 days in september 2017 in
-Paris, 350 attendees, 35 talks}
+talks for engineering students}{}{}{}
+%\cvlistitem{\textbf{~EuroBSDcon}, Video staff during 2 days in september 2017 in Paris, 350 attendees, 35 talks}
 
 \subsection{School projects}
 
 \cvlanguage{2018}{\textbf{M.I.N.D.}, Smart mirror assistant controlled with
-gestures and voice (team of 4)}{\large \itshape JavaScript}
+gestures and voice (team of 4).}{\large \itshape TypeScript}
 \cvlanguage{2017}{\textbf{Tiger Compiler}, Full implementation of a compiler for
-Andrew Appel's language (team of 3)}{\large \itshape C++}
-\cvlanguage{2017}{\textbf{Creeps}, Basic, dummy and prolific Minecraft AI for automatic mining}{\large \itshape Java}
-\cvlanguage{2016}{\textbf{42sh}, A POSIX compliant shell (team of 3)}{\large \itshape C}
-\cvlanguage{2016}{\textbf{Raytracer}, 3D scene renderer, using C standard library (team of 2)}{\large \itshape C}
-\cvlanguage{2015}{\textbf{1984}, Facial recognition (team of 4)}{\large \itshape C}
-\cvlanguage{2015}{\textbf{Inside the Game}, Running and platform video game in 3D (team of
-4)}{\large \itshape C\#, Unity3D}
+Andrew Appel's language (team of 3).}{\large \itshape C++}
+%\cvlanguage{2017}{\textbf{Creeps}, Basic, dummy and prolific Minecraft AI for automatic mining}{\large \itshape Java}
+%\cvlanguage{2016}{\textbf{42sh}, A POSIX compliant shell (team of 3)}{\large \itshape C}
+\cvlanguage{2016}{\textbf{Raytracer}, 3D scene renderer, using C standard library (team of 2).}{\large \itshape C}
+%\cvlanguage{2015}{\textbf{1984}, Facial recognition (team of 4)}{\large \itshape C}
+\cvlanguage{2015}{\textbf{Inside the Game}, Running and platform video game in 3D (team of 4).}{\large \itshape C\#, Unity3D}
 
 
 \subsection{Spare-time projects}
 
 \cvlanguage{2017}{\textbf{allRGB}, Implementation of an allRGB filter with
-OpenCV}{\large \itshape C++}
+OpenCV.}{\large \itshape C++}
 \cvlanguage{2016}{\textbf{Quads}, Image compressing and computer art tool based on
-quadtrees}{\large \itshape C\#}
+quadtrees.}{\large \itshape C\#}
+
+
+\section{Cursus}
+
+\cventry{2014 - 2019}{Computer Engineering}{EPITA}{Paris}{French engineering
+school}{}
+
+\cventry{2016}{Computer Engineering}{Stellenbosch University}{South
+Africa}{6 months exchange}{}
+
+%\cventry{2014}{High school}{Lycée Viollet-Le-Duc}{Villiers-St-Frédéric}{Scientific baccalaureat diploma, with distinction}{}
 
 
 \section{Skills}
 
-\cvitem{Programming}{C++, C, C\#, Java, Python, JS, Haskell}
-\cvitem{Techs}{Git, CMake/Makefile, Linux, LaTeX}
+\cvitem{Programming}{C++, C\#, TypeScript/JavaScript, Java, C, Python }
+\cvitem{Other techs}{Git, CMake/Makefile, Docker, Apache, GNU Linux, LaTeX}
+
 
 \section{Miscellaneous}
 
-\cvitem{Languages}{French: Native \hfill English: Fluent (\textbf{TOEIC 950})
+\cvitem{Languages}{French: Native \hfill English: Professional proficiency (\textbf{TOEIC 950})
 \hfill Spanish: Basics \hfill~}
-\cvitem{Hobbies}{Rock climbing, computer art, comic books, video games,
-fantastic novels}
+\cvitem{Hobbies}{Rock climbing, computer art, comic books, story-driven gaming experiences }
 
 \end{document}
